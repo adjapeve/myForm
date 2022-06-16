@@ -57,8 +57,10 @@ a:hover {
 }
 
 .mainContainer-left-footer {
+    font-size: .7rem;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .mainContainer-right {
@@ -103,4 +105,5 @@ input,label{
 input {
     margin-bottom: 20px;
     width: 80%;
+    border-radius: 5px;
 }
