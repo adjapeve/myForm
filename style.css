@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a:link,
+a:visited {
+    color: rgb(241, 241, 250);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.mainContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.mainContainer-left {
+    flex: 1;
+    background-image: url(img/backgrounds.jpg);
+    background-size: 75vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainContainer-right {
+    flex: 2;
+    background-color: rgb(241, 241, 250);
+}
+
+.mainContainer-left-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.mainContainer-left-banner-logo {
+    height: 15vh;
+}
+
+.mainContainer-left-banner-heading {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mainContainer-left-footer {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.mainContainer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer-right div {
+    flex: 1;
+}
+
+.mainContainer-right-heading {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 50px 50px 50px;
+}
+
+p:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.mainContainer-right-form {
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px
+}
+
+.mainContainer-right-form-formContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    gap: 20px;
+    font-size: 0.7rem;
+}
+
+input,label{
+    display: block;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 80%;
+}
