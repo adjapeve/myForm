@@ -436,13 +436,13 @@ a:hover {
 }
 
 .mainContainer-left-banner-heading {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: rgb(255, 255, 255);
   font-family: 'Permanent Marker', cursive;
 }
 
 .mainContainer-left-footer {
-  font-size: .7rem;
+  font-size: 1rem;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
   background: rgba(0, 0, 0, 0.5);
@@ -466,7 +466,7 @@ a:hover {
 p:first-child {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 p {
   width: 60ch;
@@ -482,7 +482,7 @@ p {
 .mainContainer-right-form-formContainer {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   justify-content: flex-start;
   row-gap: 5px;
   column-gap: 40px;
@@ -514,6 +514,7 @@ hr{
 
 .mainContainer-right-buttons {
   padding: 20px 50px;
+  font-size: 1.3rem;
 }
 .mainContainer-right-buttons a:link,
 .mainContainer-right-buttons a:visited {
@@ -526,7 +527,7 @@ button{
   background-color: rgb(68, 53, 53);
   padding: 5px 20px;
   color: rgb(255, 255, 255);
-  font-size: .9rem;
+  font-size: 1.5rem;
   margin-bottom: 15px;
   cursor: pointer;
 }
